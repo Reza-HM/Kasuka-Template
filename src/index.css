@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: IRANSans;
+        src: url("../public/fonts/IRANSans/IRANSans.ttf") format("truetype");
+    }
+}
+
+body {
+    font-family: "IRANSans";
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: url("../public/images/hero-bg.jpg");
+}
+
+.hiring {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/cta-bg.jpg") fixed center center;
+}
